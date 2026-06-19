@@ -85,7 +85,7 @@ function Home(props) {
             e("span", { className:"terminal__dot terminal__dot--red" }),
             e("span", { className:"terminal__dot terminal__dot--yellow" }),
             e("span", { className:"terminal__dot terminal__dot--green" }),
-            e("span", { className:"terminal__title" }, "zsh — mariana")
+            e("span", { className:"terminal__title" }, "erick.exe")
           ),
           e("div", { className:"terminal__body" }, terminalLines)
         )
