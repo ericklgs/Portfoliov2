@@ -23,18 +23,6 @@
 └── .gitignore
 ```
 
-No hay paso de build (no Webpack/Vite/Babel): React se carga vía CDN y los componentes
-usan `React.createElement` directamente, así que el sitio funciona sirviendo los
-archivos tal cual. `public/index.html` referencia los archivos de `src/` con rutas
-relativas (`../src/...`).
-
-## Desarrollo / vista previa local
-
-```bash
-npm run serve
-# abre http://localhost:5000/public/
-```
-
 ## Configurar EmailJS (formulario de contacto)
 
 1. Crea una cuenta en https://www.emailjs.com/
@@ -52,11 +40,4 @@ así que no se necesitan variables de entorno ni un backend para esto.
 ## Despliegue a producción
 
 Cualquier hosting estático funciona (Netlify, Vercel, GitHub Pages, Cloudflare Pages):
-
-- **Publish/Output directory:** la raíz del repo (`.`), no `public/`.
-- **Entry point:** `public/index.html`.
-- En Netlify/Vercel puedes configurar una redirección de `/` → `/public/index.html`,
-  o simplemente subir el repo tal cual y apuntar el dominio a esa ruta.
-- Si prefieres servir `public/` como raíz pura, copia (o symlinkea) `src/` dentro de
-  `public/` como parte de tu propio paso de build.
 
