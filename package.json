@@ -1,0 +1,11 @@
+{
+  "name": "erick-salmeron-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio personal — Erick Salmeron",
+  "scripts": {
+    "start": "npx serve . -l 5000",
+    "serve": "npx serve . -l 5000"
+  },
+  "license": "MIT"
+}
