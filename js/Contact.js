@@ -1,8 +1,8 @@
 // Contact.js
 // NOTE: emailjs is loaded globally via the EmailJS CDN script in public/index.html
 // (window.emailjs), and initialized once in main.js with your EmailJS public key.
-const EMAILJS_SERVICE_ID = "YOUR_SERVICE_ID";
-const EMAILJS_TEMPLATE_ID = "YOUR_TEMPLATE_ID";
+const EMAILJS_SERVICE_ID = "service_lutgtq9";
+const EMAILJS_TEMPLATE_ID = "template_kcwvwdg";
 
 function Contact() {
   const ctx = useApp();

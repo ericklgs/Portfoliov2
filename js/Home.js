@@ -64,7 +64,7 @@ function Home(props) {
           ),
           e("a", {
             className:"btn btn--cv",
-            href:"cv.pdf",
+            href:"assets/cv.pdf",
             download: true,
             title: t.home.cvBtn
           },

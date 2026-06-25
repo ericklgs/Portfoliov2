@@ -17,7 +17,7 @@ window.translations = {
         "$ whoami",
         "erick_salmeron — software dev",
         "$ cat skills.txt",
-        "JavaScript · React · CSS · PHP · Python",
+        "JavaScript · React · CSS · HTML",
         "$ status",
         "disponible para nuevos proyectos ✓",
       ],
@@ -29,7 +29,7 @@ window.translations = {
       body:
         "Mi trabajo combina atención al detalle visual con preocupación real por el rendimiento y la accesibilidad. Disfruto los retos donde el diseño y la ingeniería se encuentran: animaciones fluidas, layouts responsivos y componentes reutilizables que escalan.",
       skillsTitle: "Tecnologías",
-      skills: ["React", "JavaScript", "CSS", "Node.js", "PHP", "Python", "Figma", "Git", "Linux"],
+      skills: ["React", "JavaScript", "CSS", "Node.js", "PHP", "Python", "Git", "Linux"],
       factsTitle: "Datos rápidos",
       facts: [
         { label: "Años de experiencia", value: "2+" },
@@ -41,30 +41,39 @@ window.translations = {
       title: "Proyectos",
       lead: "Una selección de trabajos recientes.",
       viewLabel: "Ver proyecto",
+      githubLabel: "GitHub",
       items: [
         {
-          name: "Aurora Dashboard",
+          name: "Portfolio V2",
           description:
-            "Panel de analítica en tiempo real con gráficas interactivas y modo oscuro nativo, construido con React y D3.",
-          tags: ["React", "D3.js", "CSS Grid"],
+            "Segunda versión de mi portafolio personal.",
+          tags: ["Javascript", "CSS", "React"],
+          url: "https://portfoliov2-rho-ashy.vercel.app/",
+          github: "https://github.com/ericklgs/Portfoliov2/",
         },
         {
-          name: "Nimbus Store",
+          name: "Portfolio V1",
           description:
-            "Tienda en línea con carrito persistente, animaciones de transición entre páginas y checkout optimizado para móvil.",
-          tags: ["React", "Stripe", "Framer Motion"],
+            "Primera versión de mi portafolio personal.",
+          tags: ["Javascript", "CSS", "React"],
+          url: "https://myportfolio-ericklgs.vercel.app/",
+          github: "https://github.com/ericklgs/myportfolio",
         },
         {
-          name: "Pulso — App de Hábitos",
+          name: "To Do app",
           description:
-            "Aplicación para seguimiento de hábitos diarios con visualizaciones tipo calendario y recordatorios personalizables.",
-          tags: ["React Native", "SQLite"],
+            "Aplicación simple para lista de tareas y recordatorios.",
+          tags: ["CSS", "React"],
+          url: "https://to-do-list-ericklgs.vercel.app/",
+          github: "https://github.com/ericklgs/ToDoList",
         },
         {
-          name: "Estudio Type",
+          name: "Bank interface",
           description:
-            "Sitio editorial para una fundidora tipográfica, con un explorador de fuentes interactivo y carga progresiva de imágenes.",
-          tags: ["JavaScript", "Webfonts", "Accesibilidad"],
+            "Sitio de interfaz para aplicación de banco, la cual fue construida con styled-compnents.",
+          tags: ["CSS", "React", "Styled-components"],
+          url: "https://styled-components-wheat.vercel.app/",
+          github: "https://github.com/ericklgs/styled-components",
         },
       ],
     },
@@ -110,7 +119,7 @@ window.translations = {
         "$ whoami",
         "erick_salmeron — software dev",
         "$ cat skills.txt",
-        "JavaScript · React · CSS · PHP · Python",
+        "JavaScript · React · CSS · HTML",
         "$ status",
         "available for new projects ✓",
       ],
@@ -122,7 +131,7 @@ window.translations = {
       body:
         "My work blends attention to visual detail with real concern for performance and accessibility. I enjoy the spaces where design and engineering meet: smooth animations, responsive layouts, and reusable components that scale.",
       skillsTitle: "Technologies:",
-      skills: ["React", "JavaScript", "CSS", "Node.js", "PHP", "Python", "Figma", "Git", "Linux"],
+      skills: ["React", "JavaScript", "CSS", "Node.js", "PHP", "Python", "Git", "Linux"],
       factsTitle: "Quick facts",
       facts: [
         { label: "Years of experience", value: "2+" },
@@ -134,30 +143,39 @@ window.translations = {
       title: "Projects",
       lead: "A selection of recent work.",
       viewLabel: "View project",
+      githubLabel: "GitHub",
       items: [
         {
-          name: "Aurora Dashboard",
+          name: "Portfolio V2",
           description:
-            "Real-time analytics dashboard with interactive charts and native dark mode, built with React and D3.",
-          tags: ["React", "D3.js", "CSS Grid"],
+            "Second version of my personal portfolio.",
+          tags: ["Javascript", "CSS", "React"],
+          url: "https://portfoliov2-rho-ashy.vercel.app/",
+          github: "https://github.com/ericklgs/Portfoliov2/",
         },
         {
-          name: "Nimbus Store",
+          name: "Portfolio V1",
           description:
-            "Online store with a persistent cart, smooth page transition animations, and a mobile-optimized checkout.",
-          tags: ["React", "Stripe", "Framer Motion"],
+            "First version of my personal portfolio.",
+          tags: ["Javascript", "CSS", "React"],
+          url: "https://myportfolio-ericklgs.vercel.app/",
+          github: "https://github.com/ericklgs/myportfolio",
         },
         {
-          name: "Pulso — Habit App",
+          name: "To Do app",
           description:
-            "Daily habit tracking app with calendar-style visualizations and customizable reminders.",
-          tags: ["React Native", "SQLite"],
+            "Simple To Do list app for reminders and tasks.",
+          tags: ["CSS", "React"],
+          url: "https://to-do-list-ericklgs.vercel.app/",
+          github: "https://github.com/ericklgs/ToDoList",
         },
         {
-          name: "Studio Type",
+          name: "Bank interface",
           description:
-            "Editorial site for a type foundry, featuring an interactive font explorer and progressive image loading.",
-          tags: ["JavaScript", "Webfonts", "Accessibility"],
+            "Bank app interface, built using styled-components.",
+          tags: ["CSS", "React", "Styled-components"],
+          url: "https://styled-components-wheat.vercel.app/",
+          github: "https://github.com/ericklgs/styled-components",
         },
       ],
     },
@@ -186,3 +204,4 @@ window.translations = {
     },
   },
 };
+

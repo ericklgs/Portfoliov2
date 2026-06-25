@@ -159,12 +159,6 @@ a {
   background: var(--surface);
 }
 
-.nav__index {
-  font-family: var(--font-mono);
-  font-size: 0.7rem;
-  color: var(--accent);
-}
-
 .header__controls {
   display: flex;
   align-items: center;
@@ -596,21 +590,50 @@ a {
   color: var(--text-muted);
 }
 
+.project-card__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+}
+
 .project-card__link {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   font-weight: 600;
-  font-size: 0.9rem;
-  color: var(--accent);
+  font-size: 0.85rem;
+  transition: color var(--transition), border-color var(--transition), transform var(--transition);
 }
 
-.project-card__link .btn__arrow {
+.project-card__link--view {
+  color: var(--accent);
+  border: 1.5px solid var(--accent);
+  padding: 7px 14px;
+  border-radius: 999px;
+}
+
+.project-card__link--view:hover {
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  transform: translateY(-1px);
+}
+
+.project-card__link--view .btn__arrow {
   transition: transform var(--transition);
 }
 
-.project-card__link:hover .btn__arrow {
+.project-card__link--view:hover .btn__arrow {
   transform: translateX(4px);
+}
+
+.project-card__link--github {
+  color: var(--text-muted);
+  gap: 5px;
+}
+
+.project-card__link--github:hover {
+  color: var(--text);
 }
 
 /*========== Contact ==========*/

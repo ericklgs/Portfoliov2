@@ -35,7 +35,6 @@ function Header(props) {
             className:"nav__link" + (page === p ? " nav__link--active" : ""),
             onClick: function(){ go(p); }
           },
-            e("span", { className:"nav__index" }, "0" + (i+1)),
             t.nav[p]
           );
         })

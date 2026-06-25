@@ -1,7 +1,7 @@
 // App.js — Componente raíz
 function App() {
   const s1 = React.useState("es");   const lang = s1[0];  const setLang = s1[1];
-  const s2 = React.useState("dark"); const theme = s2[0]; const setTheme = s2[1];
+  const s2 = React.useState("light"); const theme = s2[0]; const setTheme = s2[1];
   const s3 = React.useState("home"); const page = s3[0];  const setPage = s3[1];
 
   React.useEffect(function() {
