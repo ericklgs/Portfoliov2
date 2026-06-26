@@ -109,7 +109,7 @@ window.translations = {
       contact: "Contact",
     },
     home: {
-      eyebrow: "Sofware Developer",
+      eyebrow: "Software Developer",
       title: "Erick Salmeron",
       subtitle:
         "Hello, I'm a software developer. I specialize in Frontend, but I can also work with various technologies and libraries.",
